@@ -1,0 +1,30 @@
+body {
+    background-color: #000a1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 90%;
+    height: 500px;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+    width: 25%;
+}
